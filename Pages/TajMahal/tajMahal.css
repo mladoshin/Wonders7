@@ -1,0 +1,55 @@
+.parallax{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.img1{
+  background-image: url("../../Pics/7.jpg");
+}
+
+.img2{
+  background-image: url("1.jpg");
+  min-height: 100vh;
+}
+
+.textblock{
+  min-height: 400px;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Sen', sans-serif;
+}
+
+.heading{
+  font-size: 115px;
+  font-weight: bold;
+  font-family: 'Sen', sans-serif;
+
+  background: -webkit-linear-gradient(yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.facts{
+  color: white;
+  font-weight: bold;
+  font-family: 'Sen', sans-serif;
+  font-size: 30px;
+}
+
+.facts .subheading{
+  font-weight: bold;
+  font-size: 80px;
+  background: -webkit-linear-gradient(yellow, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
